@@ -29,4 +29,4 @@ target_include_directories(
     ${PROJECT_SOURCE_DIR}/base
 )
 
-target_compile_definitions(base PUBLIC "-DNOMINMAX -D_USE_MATH_DEFINES")
+target_compile_definitions(base PUBLIC "-DNOMINMAX" "-D_USE_MATH_DEFINES")
