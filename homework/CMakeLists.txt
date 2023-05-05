@@ -83,3 +83,5 @@ set(HOMEWORKS
 )
 
 buildHomeworks()
+
+add_subdirectory(homework5)

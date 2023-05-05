@@ -6,15 +6,6 @@ set(NAME games_106)
 
 project(${NAME})
 
-include_directories(external)
-include_directories(external/glm)
-include_directories(external/gli)
-include_directories(external/imgui)
-include_directories(external/tinygltf)
-include_directories(external/ktx/include)
-include_directories(external/ktx/other_include)
-include_directories(base)
-
 OPTION(USE_D2D_WSI "Build the project using Direct to Display swapchain" OFF)
 OPTION(USE_DIRECTFB_WSI "Build the project using DirectFB swapchain" OFF)
 OPTION(USE_WAYLAND_WSI "Build the project using Wayland swapchain" OFF)
@@ -98,7 +89,7 @@ ELSE()
 ENDIF()
 
 # Set preprocessor defines
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -DNOMINMAX -D_USE_MATH_DEFINES")
+# set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -DNOMINMAX -D_USE_MATH_DEFINES")
 
 # Clang specific stuff
 if (CMAKE_CXX_COMPILER_ID MATCHES "Clang")
