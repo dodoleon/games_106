@@ -234,3 +234,10 @@ data/textures/**
 data/README_asset_pack.md
 data/font*.*
 data/roboto*.*
+/.vscode
+/android/gradle/wrapper/gradle-wrapper.properties
+/CMakeLists.txt
+/data/buster_drone
+/data/Robot-Medium-license.txt
+/android/gradle/wrapper/gradle-wrapper.properties
+/CMakeLists.txt
