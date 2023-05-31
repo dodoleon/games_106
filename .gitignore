@@ -241,3 +241,8 @@ data/roboto*.*
 /data/Robot-Medium-license.txt
 /android/gradle/wrapper/gradle-wrapper.properties
 /CMakeLists.txt
+/正交试验设计和分析方法是目前最常用的工艺优化试验设计和分析方法，是部分因子设计的主要方法 。.md
+/草稿.md
+/草稿2.md
+/参考文献引用.md
+/.gitignore
